@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Конспект 1.3.md",
+                "file": "Конспект 1.7.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Конспект 1.3.md",
+                "file": "Конспект 1.7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Конспект 1.3.md",
+                "file": "Конспект 1.7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Конспект 1.3.md"
+                "file": "Конспект 1.7.md"
               }
             }
           }
@@ -148,10 +147,14 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "525d7e162a48e141",
+  "active": "c518f9d08aa4b7e3",
   "lastOpenFiles": [
+    "Конспект 1.4.md",
+    "Конспект 1.5.md",
+    "Конспект 1.6.md",
+    "Конспект 1.3.md",
+    "Конспект 1.7.md",
     "Конспект 1.2.md",
-    "Конспект 1.1.md",
-    "Конспект 1.3.md"
+    "Конспект 1.1.md"
   ]
 }
