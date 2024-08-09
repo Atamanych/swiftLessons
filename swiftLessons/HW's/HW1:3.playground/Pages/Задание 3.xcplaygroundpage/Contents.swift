@@ -8,7 +8,7 @@ import Foundation
 
 
 
-//: [Ранее: Задание 2](@previous)  |  задание 3 из 6  |  [Далее: Задание 4](@next)
+//: [Ранее: Задание 2](@previous)  |  задание 3 из 7  |  [Далее: Задание 4](@next)
 
 let commandNumber = 6
 

@@ -16,7 +16,7 @@ import Foundation
  
  */
 
-//: [Ранее: Задание 4](@previous)  |  задание 5 из 6  | [Далее: Задание 6](@next)
+//: [Ранее: Задание 4](@previous)  |  задание 5 из 7  | [Далее: Задание 6](@next)
 
 import Foundation
 

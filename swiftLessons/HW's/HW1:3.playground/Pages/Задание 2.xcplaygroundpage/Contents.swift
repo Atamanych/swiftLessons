@@ -38,7 +38,7 @@
 
 
 
-//: [Ранее: Задание 1](@previous)  |  задание 2 из 6  |  [Далее: Задание 3](@next)
+//: [Ранее: Задание 1](@previous)  |  задание 2 из 7  |  [Далее: Задание 3](@next)
 
 var userInputAge = "34e"
 let correctUserAge: Int? = Int(userInputAge)

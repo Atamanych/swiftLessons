@@ -10,27 +10,11 @@ import Foundation
  */
 
 
-//: |  задание 1 из 6  |  [Далее: Задание 2](@next)
+//: |  задание 1 из 7  |  [Далее: Задание 2](@next)
 
-let someNumber = 11
-let sumSomenumberOne = 1000 * someNumber
-let sumSomenumberTwo = 800 * someNumber
-let sumSomenumberThree = 600 * someNumber
-let sumSomenumberFour = 600 * someNumber
+/// 1 option
 
-if someNumber < 10 {
-    print("Your order is: \(someNumber). Cost = 1000₽ per one. Sum = \(sumSomenumberOne)₽.")
-} else if someNumber < 20 {
-    print("Your order is: \(someNumber). Cost = 800₽ per one. Sum = \(sumSomenumberTwo)₽.")
-} else if someNumber < 30 {
-    print("Your order is: \(someNumber). Cost = 600₽ per one. Sum = \(sumSomenumberThree)₽.")
-} else {
-    print("Your order is: \(someNumber). Cost = 600₽ per one. Sum = \(sumSomenumberFour)₽.")
-}
-
-
-
-let productsQuantity = 11
+let productsQuantity = 70
 var price = 0
 var totalSum = 0
 
@@ -44,3 +28,18 @@ price = 600
 totalSum = productsQuantity * price
 
 print ("Количество: \(productsQuantity) шт, цена: \(price) рублей, общая сумма: \(totalSum) рублей")
+
+/// 2 option
+
+if productsQuantity < 0 {
+    price = 0
+} else if (0...9).contains(productsQuantity) {
+    price = 1000
+} else if (10...19).contains(productsQuantity) {
+    price = 800
+} else {
+    price = 600
+}
+
+totalSum = productsQuantity * price
+print ("Количество: \(productsQuantity) шт, цена: \(price) рублей, общая сумма: (totalSum) рублей")
