@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OBSIDIAN/Конспект 1.4.md",
-                "mode": "source",
+                "file": "OBSIDIAN/Конспект 1.1.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f1ed533233e03a04",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OBSIDIAN/Конспект 1.4.md",
+                "file": "OBSIDIAN/Конспект 1.1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OBSIDIAN/Конспект 1.4.md",
+                "file": "OBSIDIAN/Конспект 1.1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OBSIDIAN/Конспект 1.4.md"
+                "file": "OBSIDIAN/Конспект 1.1.md"
               }
             }
           }
@@ -149,13 +148,16 @@
   },
   "active": "0790e4f9ce0cd06b",
   "lastOpenFiles": [
+    "OBSIDIAN/Конспект 1.2.md",
+    "OBSIDIAN/Конспект 1.1.md",
+    "Base/classwork.md",
+    "Base",
+    "OBSIDIAN/Конспект 1.4.md",
     "swiftLessons/HW's/HW1:3.playground/Pages/Задание 7.xcplaygroundpage/Contents.swift",
     "swiftLessons/HW's/HW1:3.playground/Pages/Задание 7.xcplaygroundpage",
     "swiftLessons/HW's/HW1:3.playground/Pages/Untitled Page.xcplaygroundpage/Contents.swift",
     "swiftLessons/HW's/HW1:3.playground/Pages/Untitled Page.xcplaygroundpage",
     "swiftLessons/HW's/HW1:3.playground/playground.xcworkspace/xcuserdata/vladimir.xcuserdatad/IDEFindNavigatorScopes.plist",
-    "OBSIDIAN/Конспект 1.3.md",
-    "OBSIDIAN/Конспект 1.2.md",
-    "OBSIDIAN/Конспект 1.1.md"
+    "OBSIDIAN/Конспект 1.3.md"
   ]
 }
