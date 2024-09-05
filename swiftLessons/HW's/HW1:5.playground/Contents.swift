@@ -1,139 +1,133 @@
 import UIKit
-import Foundation
 
-//: ## Home Work 5
+//: # Home Work 5
 /*:
- ### Задание 1
- Создайте словарь, который содержит результаты игр спортивной команды в чемпионате (например по хоккею). Ключом словаря должно быть название команды соперника, а в качестве значения должен быть массив с результатами игр с этим соперником. Необходимо вывести на консоль результаты игр. Выглядить это должно примерно следующим образом:
+ ## Задание 1
+ Создайте словарь, который содержит результаты игр спортивной команды. Ключом словаря должно быть название команды соперника, а в качестве значения должен быть массив с результатами игр с этим соперником. Необходимо вывести на консоль результаты игр. Выглядеть это должно примерно следующим образом:
  
  - Игра с Салават Юлаев - 3:6
  
  - Игра с Салават Юлаев - 5:5
  
+ - Игра с Салават Юлаев - N/A
+ 
  - Игра с Авангард - 2:1
- 
- - Игра с Авангард - 2:3
- 
+  
  - Игра с АкБарс - 3:3
  
  - Игра с АкБарс - 1:2
  */
 
-var results: [String: [String]] = [
-    "Spartak FC": ["Victory 3:2", "Loss 1:4", "Draw 2:2"],
-    "Zenit FC": ["Victory 5:3", "Victory 2:1"],
-    "Metallurg FC": ["Loss 0:3", "Loss 2:5"],
-    "Tankograd FC": ["Draw 1:1", "Victory 4:2", "Loss 2:3"]
+var result: [String: [String]] = [
+    "SalavatYulaev HC": ["3:6", "5:5", "N/A"],
+    "Avangard HC": ["2:1"],
+    "AkBars HC": ["3:3", "1:2"]
 ]
-for (opponent, games) in results {
-    print("Games VS \(opponent):")
+for (opponent, games) in result {
     for game in games {
-        print(" - \(game)")
+        print("Game VS \(opponent): - \(game)")
     }
 }
+
 /*:
- ### Задание 2
-Создайте функцию которая принимает в качестве аргументов день, месяц и год вашего рождения и делает расчет полных прожитых вами дней, месяцев и лет с момента вашего рождения. При вызове функции на консоль должно выходить то же самое сообщение, что и в предыдущих заданиях
+ ## Задание 2
+ Создайте функцию, которая считает общую сумму переданных в нее целочисленных значений и возвращает итоговый результат. Числа можно передавать либо в массиве, либо по отдельности, на ваше усмотрение. Вызовите функцию.
  */
 
-func fullAge(dayOfBirth: Int, monthOfBirth: Int, yearOfBirth: Int,
-             dayToday: Int, monthToday: Int, yearToday: Int) -> (years: Int, months: Int, days: Int) {
+func summNumbers(numbers: Int...) -> Int {
+    return numbers.reduce(0, +)
+}
     
-    var myFullLivedYears = yearToday - yearOfBirth
-    var myFullLivedMonths = monthToday - monthOfBirth
-    var myFullLivedDays = dayToday - dayOfBirth
-    
-    if myFullLivedDays < 0 {
-            myFullLivedMonths -= 1
-            myFullLivedDays += 30
-        }
-        
-        if myFullLivedMonths < 0 {
-            myFullLivedYears -= 1
-            myFullLivedMonths += 12
-        }
-        
-        return (myFullLivedYears, myFullLivedMonths, myFullLivedDays)
-    }
+let result1 = summNumbers(numbers: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
-let (years, months, days) = fullAge(dayOfBirth: 4, monthOfBirth: 12, yearOfBirth: 1992,
-                                    dayToday: 4, monthToday: 6, yearToday: 2024)
-
-print("I lived \(years) years; \(months) months; \(days) days")
+print(result1)
 /*:
- 
- 
- ### Задание 3
- 3.1 Создайте функцию, которая считает общую сумму денег, хранящихся в кошельке. В кошельке имеются купюры различного достоинства от 50 до 5000 рублей
+ ## Задание 3
+ 3.1 Создайте функцию, которая определяет является ли число четным. В случае, если число является четным, функция должна возвращать `true`. Иначе - `false`.
  */
 
-func moneyInWallet(rubles50: Int, rubles100: Int, rubles500: Int,
-                   rubles1000: Int, rubles5000: Int) -> Int {
-    let totalRubles50 = rubles50 * 50
-    let totalRubles100 = rubles100 * 100
-    let totalRubles500 = rubles500 * 500
-    let totalRubles1000 = rubles1000 * 1000
-    let totalRubles5000 = rubles5000 * 5000
-
-    let sumMoneyInWallet = totalRubles50 + totalRubles100 + totalRubles500 + totalRubles1000 + totalRubles5000
-    
-    return sumMoneyInWallet
+func isEven(_ number: Int) -> Bool {
+    return number % 2 == 0
 }
 
-let sumMoneyInWallet = moneyInWallet(rubles50: 40, rubles100: 23, rubles500: 1, rubles1000: 54, rubles5000: 6)
-print("Sum money in wallet: \(sumMoneyInWallet) rubles")
-
-    
-//: 3.2 Заполните массив различными купюрами и подсчитайте общую сумму
-
-
-
+let result2 = isEven(3)
+let result3 = isEven(4)
 /*:
- ### Задание 4
- 4.1 Создайте функцию, которая определяет является ли число четным или нет. В случае, если число является четным, функция должна возвращать `true`. Иначе - `false`. Подумайте над названием функции, оно должно быть ёмким и в то же время не очень длинным
- */
-
-
-
-/*:
-4.2 Создайте функцию, которая определяет делится ли число на *3* без остатка. Функция так же должна возвращать булево значение. Так же подумайте над названием функции
+3.2 Создайте функцию, которая определяет делится ли число на *3* без остатка. Функция так же должна возвращать булево значение.
 */
 
+func isEvenDivisibleBy3(_ number: Int) -> Bool {
+    return number % 3 == 0
+}
+
+let result4 = isEvenDivisibleBy3(12)
+let result5 = isEvenDivisibleBy3(4)
+
+/*:
+ 3.3 Создайте функцию, которая возвращает возрастающий массив чисел в интервале от *x* до *y*. Данный интервал должен задаваться при вызове функции при помощи параметров. Вы должны самостоятельно реализовать логику создания массива. Если хотите усложнить задание, то можете возвращать не сортированный массив чисел в заданном интервале. Главное, что бы числа были уникальными и не повторялись. При этом количество элементов массива должно соответствовать количеству элементов заданного интервала.
+ */
+
+func generateSortedArray(from x: Int, to y: Int) -> [Int] {
+    guard x < y else { return [] }
+    return Array (x...y)
+}
+
+let sortedArray = generateSortedArray(from: 1, to: 10)
+print(sortedArray)
+
+
+func generateShuffledArray(from x: Int, to y: Int) -> [Int] {
+    guard x < y else { return [] }
+    var array = Array(x...y)
+    array.shuffle()
+    return array
+}
+
+let shuffledArray = generateShuffledArray(from: 1, to: 10)
+print(shuffledArray)
+
+/*:
+3.4 Создайте массив чисел от *1* до *100*, используя для этого выше созданную функцию
+ */
+
+func generateArray(from x: Int, to y: Int) -> [Int] {
+    guard x < y else { return [] }
+    return Array (x...y)
+}
+
+let oneHundredArray = generateArray(from: 1, to: 100)
+print(oneHundredArray)
 
 
 /*:
- 4.3 Создайте функцию, которая создает возрастающий массив чисел в интервале от *x* до *y*. Данный интервал должен определять пользователь при вызове функции. Если хотите усложить задание, то пусть данная функция создает массив случайных чисел в заданном интервале с уникальными значениями
+ 3.5 Создайте функцию для фильтрации переданного в неё массива. Функция должна возвращать новый массив без четных чисел. Для определения фильтруемых значений используйте ранее созданную функцию из задания **3.1**.
  */
 
+func filterArray(_ array: [Int], using condition: (Int) -> Bool) -> [Int] {
+    return array.filter(condition)
+}
 
+let numbersInThisArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+let evenNumbers = filterArray(numbersInThisArray) {$0 % 2 == 0 }
+
+print(evenNumbers)
 /*:
-4.4 Создайте массив чисел от *1* до *100*, используя для этого вышесозданную функцию
+ 3.6 Создайте функцию для фильтрации переданного в неё массива. Функция должна возвращать новый массив без чисел кратных трем. Для определения фильтруемых значений используйте ранее созданную функцию из задания **3.2**.
  */
 
+func numbersNotAMultipleOf3(_ number: Int) -> Bool {
+    return number % 3 != 0
+}
 
+let numbersNotAMultipleOf3InThisExercise = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+let evenNumbersInThisExercise = filterArray(numbersNotAMultipleOf3InThisExercise) {$0 % 3 != 0 }
 
+print(evenNumbersInThisExercise)
 /*:
- 4.5 Создайте функции для удаления всех четных чисел из массива и чисел, которые делятся на *3*. Для определения четного числа и числа которое делится на *3* используйте ранее созданные функции из задания **4.1** и **4.2**.
+ 3.7 Отфильтруйте массив из задания **3.4** при помощи двух последний функций.
  */
 
-
-/*:
- 4.6* Создайте функцию, параметром которой будет год(например, 1987), эта функция должна возвращать век(число) для этого года.
- 
- Например, для года 1905, функция возвратит 20. Для 1899 возвратит 19
- */
-
-
-/*:
- 5. Создайте функцию, которая генерирует и возвращает массив из N чисел Фибоначчи, N  - это аргумент функции.
- Создайте 2 варианта этой функции:
- а) создайте функцию, используя цикл
- б) создайте рекурсивную функцию
- 
- 
- Пример:
- Входной параметр:
- let n = 6
- 
- Результат: [0, 1, 1, 2, 3, 5]
- */
+let evenNumbersInTHisExercise = filterArray(oneHundredArray) {$0 % 2 == 0 }
+    print(evenNumbersInTHisExercise)
+let evenNumbersInTHISExercise = filterArray(oneHundredArray) {$0 % 3 != 0 }
+print(evenNumbersInTHISExercise)
