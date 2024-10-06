@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OBSIDIAN/abstract's/Конспект 1.5.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a92ab9170580579",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OBSIDIAN/abstract's/Конспект 1.5.md",
+                "file": "OBSIDIAN/abstract's/Конспект 1.6.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OBSIDIAN/abstract's/Конспект 1.5.md",
+                "file": "OBSIDIAN/abstract's/Конспект 1.6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OBSIDIAN/abstract's/Конспект 1.5.md",
+                "file": "OBSIDIAN/abstract's/Конспект 1.6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OBSIDIAN/abstract's/Конспект 1.5.md"
+                "file": "OBSIDIAN/abstract's/Конспект 1.6.md"
               }
             }
           }
@@ -159,26 +146,27 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "6a92ab9170580579",
+  "active": "e1e28a4b73d4f067",
   "lastOpenFiles": [
-    "OBSIDIAN/classroom work's/classwork 1.5.md",
-    "OBSIDIAN/abstract's/Конспект 1.5.md",
+    "OBSIDIAN/abstract's/Конспект 1.7.(2).md",
+    "OBSIDIAN/abstract's/Конспект 1.6.(2).md",
     "OBSIDIAN/abstract's/Конспект 1.6.md",
-    "OBSIDIAN/homework's/HW 1.5.md",
-    "OBSIDIAN/classroom work's/classwork 1.6.md",
-    "OBSIDIAN/homework's/HW 1.4.md",
-    "OBSIDIAN/homework's/HW 1.3.md",
+    "OBSIDIAN/abstract's/Конспект 1.5.md",
     "OBSIDIAN/abstract's/Конспект 1.4.md",
-    "OBSIDIAN/classroom work's/classwork 1.4.md",
-    "OBSIDIAN/classroom work's/classwork 1.3.md",
-    "OBSIDIAN/classroom work's/classwork 1.2.md",
-    "OBSIDIAN/abstract's/Конспект 1.7.2.md",
-    "OBSIDIAN/abstract's/Конспект 1.6.2.md",
-    "OBSIDIAN/homework's/HW 1.2.md",
-    "OBSIDIAN/homework's/HW 1.1.md",
     "OBSIDIAN/abstract's/Конспект 1.3.md",
     "OBSIDIAN/abstract's/Конспект 1.2.md",
     "OBSIDIAN/abstract's/Конспект 1.1.md",
+    "OBSIDIAN/homework's/HW 1.6.md",
+    "OBSIDIAN/homework's/HW 1.5.md",
+    "OBSIDIAN/classroom work's/classwork 1.6.md",
+    "OBSIDIAN/classroom work's/classwork 1.5.md",
+    "OBSIDIAN/homework's/HW 1.4.md",
+    "OBSIDIAN/homework's/HW 1.3.md",
+    "OBSIDIAN/classroom work's/classwork 1.4.md",
+    "OBSIDIAN/classroom work's/classwork 1.3.md",
+    "OBSIDIAN/classroom work's/classwork 1.2.md",
+    "OBSIDIAN/homework's/HW 1.2.md",
+    "OBSIDIAN/homework's/HW 1.1.md",
     "OBSIDIAN/classroom work's/classwork 1.1.md",
     "OBSIDIAN/homework's/HW1:6.playground/xcuserdata/debash.xcuserdatad/xcschemes/xcschememanagement.plist",
     "OBSIDIAN/homework's/HW1:6.playground/xcuserdata/debash.xcuserdatad/xcschemes",
@@ -196,7 +184,6 @@
     "OBSIDIAN/Конспект 1.7.md",
     "classroom work's/classwork 1.5.md",
     "OBSIDIAN/Конспект 1.4.md",
-    "classroom work's/classwork 1.4.md",
     "Без названия.canvas",
     "Без названия 1.canvas"
   ]
