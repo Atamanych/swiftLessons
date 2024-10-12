@@ -1,8 +1,5 @@
-# CLASSROOM WORK
-
 ```
 import UIKit
-
 
 //: ## Базовые операторы
 

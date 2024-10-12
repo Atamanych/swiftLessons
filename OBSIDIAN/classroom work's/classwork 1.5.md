@@ -1,12 +1,5 @@
-# CLASSROOM WORK
-
 ```
-
 import Foundation
-
-
-//: # Lesson 5
-  
 
 //: ## Функции
 

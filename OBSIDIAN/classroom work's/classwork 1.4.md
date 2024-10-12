@@ -1,9 +1,6 @@
-# CLASSROOM WORK
-
 ```
 import UIKit
-
-  
+ 
 //: # Урок 4. Типы коллекций
 
 

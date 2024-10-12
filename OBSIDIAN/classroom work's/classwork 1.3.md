@@ -1,9 +1,6 @@
-# CLASSROOM WORK
-
 ```
 import UIKit
 
-  
 //: ## Оператор ветвления if
 
 

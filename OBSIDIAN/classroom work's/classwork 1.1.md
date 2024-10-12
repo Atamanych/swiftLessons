@@ -1,8 +1,5 @@
-# CLASSROOM WORK
-
 ```
-//: # Lesson 1
-
+import UIKit
 
 //: ### Свойства (константы и переменные)
 
