@@ -4,22 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "5be2f169f314a899",
+        "id": "61e77431794fdaa9",
         "type": "tabs",
         "children": [
           {
-            "id": "b6f3025f42c20197",
+            "id": "69c676c4aa8a4e52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OBSIDIAN/classroom work's/classwork 1.9.md",
+                "file": "OBSIDIAN/classroom work's/classwork 1.6.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "classwork 1.6"
+            }
+          },
+          {
+            "id": "5bc9493330d09833",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.5"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.5"
+            }
+          },
+          {
+            "id": "97e28a058b885f3f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.6"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.6"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -39,7 +66,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
             }
           },
           {
@@ -54,7 +83,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
             }
           },
           {
@@ -62,15 +93,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f1ed533233e03a04",
@@ -86,15 +118,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OBSIDIAN/classroom work's/classwork 1.9.md",
+                "file": "OBSIDIAN/classroom work's/classwork 1.6.md",
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для classwork 1.6"
             }
           },
           {
@@ -103,10 +137,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OBSIDIAN/classroom work's/classwork 1.9.md",
+                "file": "OBSIDIAN/classroom work's/classwork 1.6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из classwork 1.6"
             }
           },
           {
@@ -117,7 +153,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
             }
           },
           {
@@ -126,11 +164,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OBSIDIAN/classroom work's/classwork 1.9.md"
-              }
+                "file": "OBSIDIAN/classroom work's/classwork 1.6.md"
+              },
+              "icon": "lucide-list",
+              "title": "Структура classwork 1.6"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -147,33 +188,33 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "b6f3025f42c20197",
+  "active": "97e28a058b885f3f",
   "lastOpenFiles": [
-    "OBSIDIAN/homework's/HW 1.9.md",
+    "OBSIDIAN/abstract's/Конспект 1.6.md",
+    "OBSIDIAN/abstract's/Конспект 1.5.md",
+    "OBSIDIAN/homework's/HW 1.5.md",
+    "OBSIDIAN/homework's/HW 1.6.md",
+    "OBSIDIAN/abstract's/Конспект 1.7.md",
+    "OBSIDIAN/classroom work's/classwork 1.5.md",
+    "OBSIDIAN/classroom work's/classwork 1.2.md",
+    "OBSIDIAN/abstract's/Конспект 1.8.md",
+    "OBSIDIAN/abstract's/Конспект 1.1.md",
+    "OBSIDIAN/abstract's/АБСТРАКЦИЯ.md",
+    "OBSIDIAN/classroom work's/classwork 1.6.md",
     "OBSIDIAN/classroom work's/classwork 1.9.md",
+    "OBSIDIAN/homework's/HW 1.9.md",
     "OBSIDIAN/abstract's/Конспект 1.9.md",
     "OBSIDIAN/classroom work's/classwork 1.3.md",
-    "OBSIDIAN/abstract's/Конспект 1.8.md",
     "OBSIDIAN/abstract's/Конспект 1.3.md",
     "OBSIDIAN/abstract's/Кортежи, структуры, введение в ООП.md",
     "OBSIDIAN/classroom work's/classwork 1.8.md",
     "OBSIDIAN/classroom work's/classwork 1.7.md",
-    "OBSIDIAN/classroom work's/classwork 1.6.md",
-    "OBSIDIAN/classroom work's/classwork 1.5.md",
     "OBSIDIAN/classroom work's/classwork 1.4.md",
-    "OBSIDIAN/classroom work's/classwork 1.2.md",
     "OBSIDIAN/classroom work's/classwork 1.1.md",
-    "OBSIDIAN/abstract's/Конспект 1.1.md",
-    "OBSIDIAN/abstract's/Конспект 1.7.md",
-    "OBSIDIAN/abstract's/Конспект 1.6.md",
-    "OBSIDIAN/abstract's/Конспект 1.5.md",
     "OBSIDIAN/abstract's/Конспект 1.4.md",
     "OBSIDIAN/abstract's/Конспект 1.2.md",
-    "OBSIDIAN/abstract's/АБСТРАКЦИЯ.md",
     "2024-10-12.md",
     "Без названия.canvas",
-    "OBSIDIAN/homework's/HW 1.6.md",
-    "OBSIDIAN/homework's/HW 1.5.md",
     "OBSIDIAN/homework's/HW 1.4.md",
     "OBSIDIAN/homework's/HW 1.3.md",
     "OBSIDIAN/homework's/HW1:6.playground/xcuserdata/debash.xcuserdatad/xcschemes/xcschememanagement.plist",
